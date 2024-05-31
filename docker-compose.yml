@@ -9,7 +9,6 @@ services:
       POSTGRES_DB: kestra
       POSTGRES_USER: kestra
       POSTGRES_PASSWORD: k3str4
-
   kestra:
     image: kestra/kestra:latest-full
     ports:
