@@ -1,8 +1,4 @@
-volumes:
-  postgres-data:
-    driver: local
-  kestra-data:
-    driver: local
+version: '3.3'
 
 services:
   postgres:
@@ -44,3 +40,8 @@ services:
             tmp-dir:
               path: /tmp/kestra-wd/tmp
 
+volumes:
+  postgres-data:
+    driver: local
+  kestra-data:
+    driver: local
