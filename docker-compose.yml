@@ -1,4 +1,4 @@
-vim volumes:
+volumes:
   postgres-data:
     driver: local
   kestra-data:
@@ -54,7 +54,7 @@ services:
           tasks:
             tmp-dir:
               path: /tmp/kestra-wd/tmp
-          url: http://localhost:8080/
+          url: http://20.212.241.183:8080/
     ports:
       - "8080:8080"
       - "8081:8081"
